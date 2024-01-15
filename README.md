@@ -34,7 +34,7 @@ class AudioRecorder:
         self.p = pyaudio.PyAudio()
 
         self.record_button = widgets.Button(description="Start Recording")
-        self.stop_button = widgets.Button(description="Stop Recording")
+        self.stop_button = widgets.Button(description="Stop Recording", disabled=True)
         
         self.record_button.on_click(self.start_recording)
         self.stop_button.on_click(self.stop_recording)
