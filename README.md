@@ -11,6 +11,8 @@ pip install pyaudio==0.2.13
 
 Run the code and it will enable for multiple recoding file save into ```logs``` folder as ```.wav``` format audio.
 
+For Interactive Testing Check the jupyter ![notebook](audio_recoder.ipynb)
+
 ```py
 
 import os
